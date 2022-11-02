@@ -1,0 +1,46 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Navigation */
+
+.nav {
+    margin: auto;
+    overflow: hidden;
+    border-bottom: 1px solid seashell;
+    margin: auto;
+    height: 69px;
+
+}
+
+.logo img {
+    float: left;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.nav-menu {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+  
+.nav-menu a {
+    padding-left: 30px;
+    text-decoration: underline;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex: 1 1 700px;
+    align-items: center;
+}
